@@ -9,7 +9,7 @@ import {
 } from "@yamada-ui/react";
 import { LanguagesIcon } from "@yamada-ui/lucide";
 import { useLocale } from "next-intl";
-import { Locale } from "../../../i18n/routing";
+import { Locale } from "../../i18n/routing";
 
 export default function LocaleMenuButton() {
   const currentLocale = useLocale();
