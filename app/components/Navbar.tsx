@@ -3,6 +3,7 @@ import React from "react";
 import LocaleMenuButton from "./LocaleMenuButton";
 import Link from "next/link";
 import { Locale } from "../../i18n/routing";
+import GIthubIconButton from "./GIthubIconButton";
 
 export default function Navbar({ locale }: { locale: Locale }) {
   return (
@@ -24,7 +25,10 @@ export default function Navbar({ locale }: { locale: Locale }) {
           </Link>
         </Flex>
 
-        <LocaleMenuButton />
+        <Flex justify={"space-around"} width={"100px"}>
+          <GIthubIconButton />
+          <LocaleMenuButton />
+        </Flex>
       </Flex>
     </nav>
   );
