@@ -22,7 +22,7 @@ export default function LocaleMenuButton() {
     <Menu animation="top">
       <MenuButton
         as={IconButton}
-        icon={<LanguagesIcon fontSize="2xl" />}
+        icon={<LanguagesIcon />}
         colorScheme="primary"
         variant="primary"
         fontSize={"2xl"}
