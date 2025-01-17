@@ -10,6 +10,7 @@ export default function GIthubIconButton() {
         colorScheme="primary"
         variant="primary"
         fontSize={"2xl"}
+        color={"black"}
       />
     </Link>
   );
