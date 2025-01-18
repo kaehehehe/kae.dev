@@ -2,8 +2,8 @@ import { Flex, Text, Wrap } from "@yamada-ui/react";
 import React from "react";
 import LocaleMenuButton from "./LocaleMenuButton";
 import Link from "next/link";
-import { Locale } from "../../i18n/routing";
 import GIthubIconButton from "./GIthubIconButton";
+import { Locale } from "../../../i18n/routing";
 
 export default function Navbar({ locale }: { locale: Locale }) {
   return (
